@@ -1,0 +1,12 @@
+[
+    {
+        "name"      : "Story 1",
+        "type"      : "story",
+        "depends"   : []
+    },
+    {
+        "name"      : "Story 2",
+        "type"      : "story",
+        "depends"   : []
+    }
+]
