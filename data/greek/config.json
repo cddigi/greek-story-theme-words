@@ -1,15 +1,15 @@
 {
     "title" : "Breakdown of Greek Sentences from Athenaze Book 1",
     "graph" : {
-        "linkDistance" : 150,
-        "charge"       : -500,
-        "height"       : 800,
+        "linkDistance" : 50,
+        "charge"       : 0,
+        "height"       : 1000,
         "numColors"    : 12,
         "labelPadding" : {
             "left"   : 10,
-            "right"  : 5,
+            "right"  : 0,
             "top"    : 10,
-            "bottom" : 5
+            "bottom" : 0
         },
         "labelMargin" : {
             "left"   : 10,
@@ -37,18 +37,37 @@
         {
             "has"    : { "type" : "dictionary"},
             "type"   : "position",
-            "y"      : 1.0,
+            "y"      : 0.8,
             "weight" : 0.5
         }, {
             "has"    : { "type" : "word"},
             "type"   : "position",
             "y"      : 0.5,
             "weight" : 0.5
-        }, {
+        },{
             "has"    : { "type" : "sentence"},
             "type"   : "position",
-            "y"      : 0.0,
+            "y"      : 0.2,
             "weight" : 0.5
+        },{
+            "has"    : { "type" : "sentence", "group" : "chapter6α"},
+            "type"   : "position",
+            "x"      : 0.1,
+            "weight" : 0.2
+        }, {
+            "has"    : { "type" : "sentence", "group" : "chapter6β"},
+            "type"   : "position",
+            "x"      : 0.2,
+            "weight" : 0.2
+        }, {
+            "has"    : { "type" : "sentence", "group" : "chapter7α"},
+            "type"   : "position",
+            "x"      : 0.3,
+            "weight" : 0.2
+        }, {
+            "has"       : { "type" : "sentence"},
+            "type"      : "linkStrength",
+            "strength"  : 0.2
         }
     ]
 }
