@@ -2,7 +2,7 @@
     "title" : "Breakdown of Greek Sentences from Athenaze Book 1",
     "graph" : {
         "linkDistance" : 50,
-        "charge"       : 100,
+        "charge"       : -50,
         "height"       : 800,
         "numColors"    : 12,
         "labelPadding" : {
@@ -47,28 +47,64 @@
             "y"      : 0.5,
             "weight" : 0.5
         }, {
+            "has"    : { "type" : "sentence", "group" : "Chapter 1α"},
+            "type"   : "position",
+            "x"      : 0.1,
+            "y"      : 0.1,
+            "weight" : 0.8
+        }, {
+            "has"    : { "type" : "sentence", "group" : "Chapter 1β"},
+            "type"   : "position",
+            "x"      : 0.25,
+            "y"      : 0.1,
+            "weight" : 0.8
+        }, {
+            "has"    : { "type" : "sentence", "group" : "Chapter 2α"},
+            "type"   : "position",
+            "x"      : 0.35,
+            "y"      : 0.1,
+            "weight" : 0.8
+        }, {
+            "has"    : { "type" : "sentence", "group" : "Chapter 2β"},
+            "type"   : "position",
+            "x"      : 0.65,
+            "y"      : 0.1,
+            "weight" : 0.8
+        }, {
+            "has"    : { "type" : "sentence", "group" : "Chapter 3α"},
+            "type"   : "position",
+            "x"      : 0.75,
+            "y"      : 0.1,
+            "weight" : 0.8
+        }, {
+            "has"    : { "type" : "sentence", "group" : "Chapter 5β"},
+            "type"   : "position",
+            "x"      : 0.9,
+            "y"      : 0.1,
+            "weight" : 0.8
+        }, {
             "has"    : { "type" : "sentence", "group" : "Chapter 6α"},
             "type"   : "position",
             "x"      : 0.1,
-            "y"      : 0.7,
+            "y"      : 0.5,
             "weight" : 0.8
         }, {
             "has"    : { "type" : "sentence", "group" : "Chapter 6β"},
             "type"   : "position",
             "x"      : 0.25,
-            "y"      : 0.7,
+            "y"      : 0.5,
             "weight" : 0.8
         }, {
             "has"    : { "type" : "sentence", "group" : "Chapter 7α"},
             "type"   : "position",
             "x"      : 0.75,
-            "y"      : 0.7,
+            "y"      : 0.5,
             "weight" : 0.8
         }, {
             "has"    : { "type" : "sentence", "group" : "Chapter 7β"},
             "type"   : "position",
             "x"      : 0.9,
-            "y"      : 0.7,
+            "y"      : 0.5,
             "weight" : 0.8
         },{
             "has"    : { "type" : "sentence", "group" : "Chapter 8α"},
@@ -85,19 +121,19 @@
         },{
             "has"    : { "type" : "sentence", "group" : "Chapter 9α"},
             "type"   : "position",
-            "x"      : 0.4,
+            "x"      : 0.65,
             "y"      : 0.9,
             "weight" : 0.8
         },{
             "has"    : { "type" : "sentence", "group" : "Chapter 9β"},
             "type"   : "position",
-            "x"      : 0.6,
+            "x"      : 0.75,
             "y"      : 0.9,
             "weight" : 0.8
         },{
             "has"    : { "type" : "sentence", "group" : "Chapter 10α"},
             "type"   : "position",
-            "x"      : 0.75,
+            "x"      : 0.9,
             "y"      : 0.9,
             "weight" : 0.8
         },{
