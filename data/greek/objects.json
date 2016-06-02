@@ -1,5 +1,13 @@
 [
     {
+        "name"      : "Credits",
+        "type"      : "credits",
+        "depends"   : []
+    },{
+        "name"      : "Sentence Translations",
+        "type"      : "translation",
+        "depends"   : []
+    },{
         "name"      : "\"ὦ Ζεῦ, χαλεπὸς δέ ἐστιν ὁ βίος· ἀπέραντος γάρ ἐστιν ὁ πόνος...\"",
         "type"      : "sentence",
         "group"     : "Chapter 1α",

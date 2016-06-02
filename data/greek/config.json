@@ -1,7 +1,7 @@
 {
     "title" : "Breakdown of Greek Sentences from Athenaze Book 1",
     "graph" : {
-        "linkDistance" : 150,
+        "linkDistance" : 100,
         "charge"       : -300,
         "height"       : 800,
         "numColors"    : 12,
@@ -31,11 +31,31 @@
         "sentence" : {
             "short" : "Sentence",
             "long"  : "Sentence"
+        },
+        "credits" : {
+            "short" : "Credits",
+            "long"  : "Credits"
+        },
+        "translation" : {
+            "short" : "Sentence Translations",
+            "long"  : "Sentence Translations"
         }
     },
     "constraints" : [
         {
             "has"    : { "type" : "dictionary"},
+            "type"   : "position",
+            "x"      : 0.5,
+            "y"      : 0.5,
+            "weight" : 0.5
+        },{
+            "has"    : { "type" : "translation"},
+            "type"   : "position",
+            "x"      : 0.5,
+            "y"      : 0.5,
+            "weight" : 0.5
+        },{
+            "has"    : { "type" : "credits"},
             "type"   : "position",
             "x"      : 0.5,
             "y"      : 0.5,
