@@ -1,7 +1,8 @@
-Authored by Cornelius Donley and AnnMarie Bachmann for CLS 299 under the guidance of Dr. Michael deBrauw at North Central College.
+Authored by Cornelius Donley and AnnMarie Bachmann for CLS 299<br/>
+under the guidance of Dr. Michael deBrauw at North Central College.<br/>
 
-Resource for Greek text:
-Athenaze, An introduction to Ancient Greek
-by Maurice Balme, Gilbert Lawall, and James Morwood
-Published by Oxford University Press, New York, 2015
-ISBN 978-0-19-936324-7
+Resource for Greek text:<br/>
+Athenaze, An introduction to Ancient Greek<br/>
+by Maurice Balme, Gilbert Lawall, and James Morwood<br/>
+Published by Oxford University Press, New York, 2015<br/>
+ISBN 978-0-19-936324-7<br/>
