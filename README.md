@@ -1,5 +1,5 @@
 http://cvdonley-greek-vocab-graph.azurewebsites.net/graph.php
-
+[![Greek dataset](img/graph.png)]
 
 # d3 process map
 
